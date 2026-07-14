@@ -2154,7 +2154,6 @@ def main():
 if __name__ == "__main__":
     print("\t\tGPO Helper - @TheXC3LL")
     print("\t\tModifications by - @Fabrizzio53\n\n")
-    print("\t\tModifications by - @f0rk3b0mb\n\n")
 
     main()
     print("\n[^] Have a nice day!")
