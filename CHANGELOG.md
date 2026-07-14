@@ -1,7 +1,5 @@
 # Changelog
 
-## [Unreleased] - 2026-07-14
-
 ### Added
 - `-taskargs` CLI flag and an `args` parameter on `GPOImmTask()`, allowing command-line arguments to be passed to the immediate scheduled task's `Exec` action via a new `<Arguments>` element.
 
