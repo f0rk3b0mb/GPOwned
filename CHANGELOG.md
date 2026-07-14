@@ -4,7 +4,7 @@
 
 ### Added
 - `-taskargs` CLI flag and an `args` parameter on `GPOImmTask()`, allowing command-line arguments to be passed to the immediate scheduled task's `Exec` action via a new `<Arguments>` element.
-- Attribution line for `@f0rk3b0mb` in the startup banner.
+
 
 ### Fixed
 - `GPOCopyFile()` and `GPOImmTask()` now explicitly create the `Preferences` directory (in addition to `Preferences\Files` / `Preferences\ScheduledTasks`) before writing XML, fixing failures on GPOs that don't already have a `Preferences` folder on SYSVOL.
